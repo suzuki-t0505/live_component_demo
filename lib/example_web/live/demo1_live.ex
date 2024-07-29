@@ -11,6 +11,10 @@ defmodule ExampleWeb.Demo1Live do
         module={ExampleWeb.DemoComponent}
         id="demo"
       />
+      <.live_component
+        module={ExampleWeb.CalculatorComponent}
+        id="calc1"
+      />
     </div>
     """
   end
